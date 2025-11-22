@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background\ image.jpg");
+    background-size: cover;
+}
+.header{
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.full-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.main{
+    position: relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 35rem;
+    width: 45vw;
+    margin-top: 3vh;
+    border: 2px solid white;
+    box-shadow: 0 0 10px black;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+span{
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+    width: 550px;
+    line-height: 50px;
+}
+.text-section{
+    flex-grow: 1;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
+.adding-section{
+    display: flex;
+    margin-right: -1rem;
+    margin-left: -1rem; 
+    align-items: flex-end;
+    margin-bottom: -1rem;   
+    margin-top: auto;
+}
+.adding-section input{
+    height: 4rem;
+    width: 40rem;
+    border-radius: 0px 0px 0px 5px;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    
+
+}
+.adding-section input:active{
+    border: 0px;
+}
+
+.add-btn{
+    height: 4rem;
+    width: 4.5rem;
+    margin-left: -.3rem;
+    font-size: 40px;
+    border-radius: 0px 0px 5px 0px;
+    border: 0;
+    border-left: 1px solid black;
+}
+.contanier{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    
+}
+.sami-contanier{
+    display: flex;
+}
+.contanier button{
+    background-color: transparent;
+    border: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 3px black;
+
+}
